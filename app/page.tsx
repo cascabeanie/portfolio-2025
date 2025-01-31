@@ -9,7 +9,7 @@ import Footer from "@/components/footer/footer";
 export default function Home() {
   return (
     <>
-      <div className="grid min-h-svh grid-rows-[auto_1.5rem] bg-black">
+      <div className="grid min-h-svh grid-rows-[auto_1.5rem] bg-black font-['Geist']">
         <header className="fixed top-0 z-10 flex w-full text-gray-300 md:justify-center md:p-6">
           <Navbar />
         </header>
