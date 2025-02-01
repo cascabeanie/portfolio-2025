@@ -5,7 +5,8 @@ export default function AboutCards() {
     <>
       <div className="grid w-full max-w-7xl grid-cols-2 justify-items-center gap-8 md:grid-cols-3">
         {technologies.map((tech) => (
-          <div
+          <a
+            href={tech.link}
             key={tech.id}
             className="group flex w-full max-w-sm flex-col items-center gap-2 rounded-lg bg-zinc-900/75 p-7 transition-colors hover:bg-zinc-800 md:gap-4"
           >
@@ -17,7 +18,7 @@ export default function AboutCards() {
             <span className="text-sm font-medium text-gray-300 group-hover:text-white md:text-base">
               {tech.name}
             </span>
-          </div>
+          </a>
         ))}
       </div>
     </>

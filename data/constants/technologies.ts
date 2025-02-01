@@ -17,6 +17,7 @@ export const technologies = [
     icon: SiNextdotjs,
     color: "fill-[#ffffff]",
     description: "React framework",
+    link: "https://nextjs.org/",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const technologies = [
     icon: SiReact,
     color: "fill-[#61DAFB]",
     description: "JavaScript library",
+    link: "https://react.dev/",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ export const technologies = [
     icon: SiTypescript,
     color: "fill-[#3178C6]",
     description: "Strongly typed JavaScript",
+    link: "https://www.typescriptlang.org/",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const technologies = [
     icon: SiJavascript,
     color: "fill-[#F7DF1E]",
     description: "Programming language",
+    link: "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
   },
 
   {
@@ -46,6 +50,7 @@ export const technologies = [
     icon: SiNodedotjs,
     color: "fill-[#5FA04E]",
     description: "JavaScript runtime environment",
+    link: "https://nodejs.org/en",
   },
 
   {
@@ -54,6 +59,7 @@ export const technologies = [
     icon: SiTailwindcss,
     color: "fill-[#06B6D4]",
     description: "Utility-first CSS framework",
+    link: "https://tailwindcss.com/",
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const technologies = [
     icon: SiDocker,
     color: "fill-[#2496ED]",
     description: "Containerisation",
+    link: "https://www.docker.com/",
   },
   {
     id: 8,
@@ -68,6 +75,7 @@ export const technologies = [
     icon: SiPostgresql,
     color: "fill-[#4169E1]",
     description: "Relational database management system",
+    link: "https://www.postgresql.org/",
   },
 
   {
@@ -76,5 +84,6 @@ export const technologies = [
     icon: SiGit,
     color: "fill-[#F05032]",
     description: "Version control",
+    link: "https://git-scm.com/",
   },
 ];
