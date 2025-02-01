@@ -51,18 +51,18 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="flex items-center gap-8">
+          <div className="flex items-center gap-8 md:gap-12">
             <Link href="https://github.com">
               <SiGithub
                 size={35}
-                className="stroke-gray-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:stroke-white"
+                className="fill-gray-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:fill-white"
               />
             </Link>
 
             <Link href="https://linkedin.com">
               <LinkedIn
                 size={35}
-                className="fill-gray-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                className="fill-gray-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:fill-white"
               />
             </Link>
 
