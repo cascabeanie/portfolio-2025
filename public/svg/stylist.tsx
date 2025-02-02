@@ -11,7 +11,6 @@ export default function Stylist({ size, className }: StylistProps) {
       aria-label="StylistS"
       height={size}
       width={size}
-      /* className="logo--narrow" */
       className={className}
     >
       <path
