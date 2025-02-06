@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <section
       id="work"
-      className="flex min-h-svh flex-col items-center justify-center px-4"
+      className="flex min-h-svh flex-col items-center justify-center px-4 py-24 md:px-8"
     >
       <div className="flex flex-col items-center gap-6">
         <h2 className="text-center text-4xl font-light tracking-wide text-gray-100 md:text-5xl">

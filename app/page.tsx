@@ -18,7 +18,6 @@ export default function Home() {
           <About />
           <Work />
           <Projects />
-          {/*  <Contact /> */}
         </main>
 
         <footer className="flex items-center justify-center">

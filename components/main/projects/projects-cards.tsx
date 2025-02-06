@@ -9,13 +9,13 @@ import { SiGithub } from "@icons-pack/react-simple-icons";
 export default function ProjectsCards() {
   return (
     <>
-      <div className="flex w-full flex-col items-center gap-6">
+      <div className="flex w-full flex-col items-center justify-center gap-6 md:flex-row md:gap-16">
         {projects.map((project) => (
           <div
             key={project.id}
-            className="flex max-w-2xl flex-col items-center gap-6 rounded-2xl border-2 border-gray-100"
+            className="flex max-w-2xl rounded-2xl border-2 border-gray-100"
           >
-            <span className="flex flex-col items-center gap-4 rounded-2xl bg-zinc-900 p-8 md:items-start md:gap-6 md:p-10">
+            <span className="grid grid-rows-[2rem_5rem_12rem_7rem] justify-items-center gap-4 rounded-2xl bg-zinc-900 p-4 md:grid-rows-[2rem_5rem_12rem_3rem] md:justify-items-start md:gap-6 md:p-10">
               <h3 className="text-2xl font-semibold text-gray-100 md:text-3xl">
                 {project.title}
               </h3>
