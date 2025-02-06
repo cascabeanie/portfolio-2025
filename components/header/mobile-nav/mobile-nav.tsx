@@ -8,7 +8,7 @@ export default function MobileNav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   function handleToggleMobileNav(): void {
-    isNavOpen === false ? setIsNavOpen(true) : setIsNavOpen(false);
+    return isNavOpen === false ? setIsNavOpen(true) : setIsNavOpen(false);
   }
 
   return (

@@ -3,27 +3,26 @@ import Hero from "@/components/main/hero";
 import About from "@/components/main/about/about";
 import Work from "@/components/main/work";
 import Projects from "@/components/main/projects/projects";
-import Contact from "@/components/main/contact";
-import Footer from "@/components/footer/footer";
+import Contact from "@/components/footer/contact";
 
 export default function Home() {
   return (
     <>
-      <div className="grid min-h-svh grid-rows-[auto_1.5rem] bg-[#0a0a0a] font-['Geist']">
+      <div className="grid min-h-svh grid-rows-[auto] bg-[#0a0a0a] font-['Geist']">
         <header className="fixed top-0 z-10 flex w-full text-gray-300 md:justify-center md:p-6">
           <Navbar />
         </header>
 
-        <main className="grid min-h-svh grid-rows-[repeat(5,minmax(1fr,auto))]">
+        <main className="grid min-h-svh grid-rows-[repeat(4,minmax(1fr,auto))]">
           <Hero />
           <About />
           <Work />
           <Projects />
-          <Contact />
+          {/*  <Contact /> */}
         </main>
 
-        <footer>
-          <Footer />
+        <footer className="flex items-center justify-center">
+          <Contact />
         </footer>
       </div>
     </>
