@@ -11,7 +11,7 @@ export default function Hamburger({ onToggleIcon, navStatus }: HamburgerProps) {
     <>
       <div
         onClick={onToggleIcon}
-        className="fixed top-4 left-8 z-30 flex cursor-pointer rounded-2xl bg-zinc-900/50 p-2 backdrop-blur-xs md:hidden"
+        className="fixed top-4 left-8 z-30 flex cursor-pointer rounded-full bg-zinc-900/50 p-2 backdrop-blur-xs md:hidden"
       >
         {navStatus === false ? (
           <Menu className="stroke-white" />

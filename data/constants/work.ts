@@ -17,6 +17,6 @@ export const work = [
     date: "04 Nov 2024 - 8 Nov 2024",
     icon: Stylist,
     description:
-      "Gained practical experience with agile software development on industry projects.",
+      "Gained practical experience with Agile software development on industry projects by participating in sprint planning and daily stand-ups, gaining valuable exposure to the product lifecycle from development to deployment.",
   },
 ];

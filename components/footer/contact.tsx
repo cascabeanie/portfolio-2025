@@ -33,7 +33,10 @@ export default function Contact() {
         </h4>
       </Link>
 
-      <Link href="#" className="group flex items-center gap-2">
+      <Link
+        href="mailto:jack.cascarini@yahoo.com"
+        className="group flex items-center gap-2"
+      >
         <Mail
           size={18}
           className="stroke-gray-300 transition delay-150 duration-300 ease-in-out group-hover:stroke-white"
