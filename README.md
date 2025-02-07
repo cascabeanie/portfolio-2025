@@ -4,7 +4,7 @@ This is an updated portfolio to highlight my skills, professional experience, an
 
 ## Demo
 
-[Live Demo](https://###TBC###.vercel.app/)
+[Live Demo](https://portfolio-2025-jc.vercel.app/)
 
 ## Tech Stack
 

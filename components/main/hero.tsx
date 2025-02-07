@@ -39,7 +39,7 @@ export default function Hero() {
               </Button>
             </Link>
 
-            <Link href="#">
+            <Link href="/cascarini-jack-cv-2025-portfolio.pdf">
               <Button
                 buttonType="button"
                 buttonVariant={"secondary"}
