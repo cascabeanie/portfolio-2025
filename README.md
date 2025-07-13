@@ -2,10 +2,14 @@
 
 This is an updated portfolio to highlight my skills, professional experience, and personal projects.
 
-## Demo
+## Live Demo
 
-[Live Demo](https://portfolio-2025-jc.vercel.app/)
+[portfolio-2025-jc.vercel.app](https://portfolio-2025-jc.vercel.app/)
+
+---
 
 ## Tech Stack
 
-**Frontend:** Next.js, TailwindCSS
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
