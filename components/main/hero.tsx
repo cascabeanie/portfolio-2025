@@ -19,7 +19,7 @@ export default function Hero() {
               Jack Cascarini
             </h1>
             <h3 className="mb-6 text-center text-xl text-gray-300 md:text-3xl">
-              Front End Developer
+              Frontend Developer
             </h3>
             <div className="flex items-center gap-4 text-base text-gray-400 md:text-xl">
               <MapPin color={"rgb(156 163 175 / 0.7)"} size={24} />

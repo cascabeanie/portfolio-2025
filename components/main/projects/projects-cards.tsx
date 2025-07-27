@@ -1,4 +1,4 @@
-import { technologies } from "@/data/constants/technologies";
+import { projectTechnologies } from "@/data/constants/technologies";
 import { projects } from "@/data/constants/projects";
 
 import ProjectsButton from "@/components/ui/buttons/projects-button";
@@ -30,7 +30,9 @@ export default function ProjectsCards() {
                 </h4>
                 <div className="grid grid-cols-3 gap-4">
                   {project.technologies.map((tech) => {
-                    const techInfo = technologies.find((t) => t.name === tech);
+                    const techInfo = projectTechnologies.find(
+                      (t) => t.name === tech,
+                    );
                     return (
                       <div key={tech} className="flex flex-col items-center">
                         {techInfo && (
