@@ -5,7 +5,7 @@ export const work = [
     id: 1,
     name: "Stylist (DC Thomson)",
     title: "Front End Work Experience",
-    date: "14 Jul 2025 - 28 Jul 2025",
+    date: "14 Jul 2025 - 04 Aug 2025",
     icon: Stylist,
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis voluptatem cum ut maiores debitis autem inventore laudantium, assumenda modi consequuntur molestiae dolorem sapiente quam eaque ad, accusamus ipsam alias? Suscipit.",
