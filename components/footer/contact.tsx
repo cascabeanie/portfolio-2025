@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <section id="contact" className="mb-4 flex items-center gap-8 sm:gap-10">
       <Link
-        href="https://github.com/cascabeanie"
+        href="https://github.com/cascabeanie/"
         className="group flex items-center gap-2"
       >
         <SiGithub
@@ -21,7 +21,7 @@ export default function Contact() {
       </Link>
 
       <Link
-        href="https://linkedin.com/"
+        href="https://www.linkedin.com/in/jack-cascarini-620704386/"
         className="group flex items-center gap-2"
       >
         <LinkedIn

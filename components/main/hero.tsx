@@ -39,7 +39,7 @@ export default function Hero() {
               </Button>
             </Link>
 
-            <Link href="/cascarini-jack-cv-2025-portfolio.pdf">
+            <Link href="/cascarini-jack-portfolio-cv-2025.pdf">
               <Button
                 buttonType="button"
                 buttonVariant={"secondary"}
@@ -52,14 +52,14 @@ export default function Hero() {
           </div>
 
           <div className="flex items-center gap-8 md:gap-12">
-            <Link href="https://github.com/cascabeanie">
+            <Link href="https://github.com/cascabeanie/">
               <SiGithub
                 size={35}
                 className="fill-gray-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:fill-white"
               />
             </Link>
 
-            <Link href="https://linkedin.com/">
+            <Link href="https://www.linkedin.com/in/jack-cascarini-620704386/">
               <LinkedIn
                 size={35}
                 className="fill-gray-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:fill-white"
