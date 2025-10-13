@@ -8,7 +8,7 @@ export default function Work() {
     >
       <div className="flex flex-col items-center gap-6">
         <h2 className="text-center text-4xl font-light tracking-wide text-gray-100 md:text-5xl">
-          Work Experience
+          Work History
         </h2>
 
         <div className="max-w-4xl rounded-lg border border-white">

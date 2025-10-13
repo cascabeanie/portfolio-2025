@@ -4,19 +4,19 @@ export const work = [
   {
     id: 1,
     name: "Stylist (D.C. Thomson)",
-    title: "Frontend Work Experience",
-    date: "14 Jul 2025 - 04 Aug 2025",
+    title: "Junior Frontend Engineer Work Experience",
+    date: "14 Jul 2025 - 01 Aug 2025",
     icon: Stylist,
     description:
-      "Implemented a fix for a dark mode theming bug that improved the overall user experience and built a responsive social media UI component from scratch. This hands-on experience strengthened my skills in modern frontend development and gave me insight into building and maintaining production-ready code.",
+      "During this placement, I contributed to the development of a modern web application built with Next.js and TypeScript. I resolved a complex dark mode bug by analysing theme toggler behaviour across user preferences, correcting CSS overrides, and refining state management to restore dynamic theme switching. I also developed a responsive, reusable, and accessible social media UI component from detailed design specifications, integrating live GraphQL data and ensuring it could be efficiently repurposed across related features. Throughout the process, I applied CSS BEM conventions and solid project organisation practices to deliver clean, production-quality code, strengthening my technical expertise and attention to detail.",
   },
   {
     id: 2,
     name: "Stylist (D.C. Thomson)",
-    title: "Frontend Work Experience",
+    title: "Junior Frontend Engineer Work Experience",
     date: "04 Nov 2024 - 08 Nov 2024",
     icon: Stylist,
     description:
-      "Gained practical experience with Agile software development on industry projects by participating in sprint planning and daily stand-ups, gaining valuable exposure to the product lifecycle from development to deployment.",
+      "During this placement, I observed Agile ceremonies, developing an analytical insight into how iterative development can increase the flow of feedback, mitigate risks, and promote team collaboration, which ultimately provides greater value to the customer.",
   },
 ];
