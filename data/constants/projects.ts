@@ -1,5 +1,7 @@
 export const projects = [
-  {
+  // ETF Insight is not currently working
+  // Will remove after further investigation
+  /*   {
     id: 1,
     title: "ETF Insight",
     description:
@@ -7,7 +9,7 @@ export const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     demoLink: "https://etf-insight.vercel.app/",
     githubLink: "https://github.com/cascabeanie/etf-insight",
-  },
+  }, */
   {
     id: 2,
     title: "Fini",
