@@ -7,7 +7,6 @@ import { Code } from "lucide-react";
 import { Download } from "lucide-react";
 import { SiGithub } from "@icons-pack/react-simple-icons";
 import LinkedIn from "@/public/svg/linkedin";
-import { Mail } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -19,11 +18,11 @@ export default function Hero() {
               Jack Cascarini
             </h1>
             <h3 className="mb-6 text-center text-xl text-gray-300 md:text-3xl">
-              Frontend Developer
+              Software Developer
             </h3>
             <div className="flex items-center gap-4 text-base text-gray-400 md:text-xl">
               <MapPin color={"rgb(156 163 175 / 0.7)"} size={24} />
-              London, UK
+              Guildford, UK
             </div>
           </div>
 
@@ -39,7 +38,7 @@ export default function Hero() {
               </Button>
             </Link>
 
-            <Link href="/cascarini-jack-portfolio-cv-2025.pdf">
+            <Link href="/cascarini-jack-portfolio-cv-2026.pdf">
               <Button
                 buttonType="button"
                 buttonVariant={"secondary"}
@@ -63,13 +62,6 @@ export default function Hero() {
               <LinkedIn
                 size={35}
                 className="fill-gray-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:fill-white"
-              />
-            </Link>
-
-            <Link href="mailto:jack.cascarini@yahoo.com">
-              <Mail
-                size={45}
-                className="stroke-gray-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:stroke-white"
               />
             </Link>
           </div>

@@ -1,15 +1,13 @@
 export const projects = [
-  // ETF Insight is not currently working
-  // Will remove after further investigation
-  /*   {
+  {
     id: 1,
-    title: "ETF Insight",
+    title: "Local Avians",
     description:
-      "An ETF analytics web app with real-time market data, allowing users to view historical performance, and explore fund statistics.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    demoLink: "https://etf-insight.vercel.app/",
-    githubLink: "https://github.com/cascabeanie/etf-insight",
-  }, */
+      "An educational web app for bird sightings with an interactive map and detailed pages for individual bird species and UK counties.",
+    technologies: ["React", "TypeScript", "Flask", "Python", "SQLite"],
+    demoLink: "https://local-avians.vercel.app/",
+    githubLink: "https://github.com/cascabeanie/local-avians",
+  },
   {
     id: 2,
     title: "Fini",
